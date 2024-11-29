@@ -1,0 +1,36 @@
+.profile-container {
+    position: relative;
+  }
+  
+  .profile-icon {
+    background-color: var(--primary-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-icon:hover,
+  .profile-container:hover .profile-icon {
+    background-color: var(--primary-dark-color);
+  }
+  
+  .profile-container:not(:hover) .profile-icon {
+    transition: background-color 5s;
+  }
+  
+  .profile-text {
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .profile-container:hover .profile-text {
+    color: var(--primary-color);
+  }
+  
+  .profile-container:not(:hover) .profile-text {
+    transition: color 5s;
+  }
+  
+  :root {
+    --primary-color: #004d00;
+    --primary-dark-color: #003300;
+  }
