@@ -21,8 +21,8 @@ A modern healthcare e-commerce solution connecting pharmacies, vendors, and cust
 ### Installation
 ```bash
 # Clone repository
-git clone [repository-url]
-cd pharmalink
+git clone [https://github.com/Terrymanzi/Pharmalink-Prototype.git]
+cd pharmalink-Prototype
 
 # Install dependencies
 npm install
